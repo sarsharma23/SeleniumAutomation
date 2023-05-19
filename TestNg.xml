@@ -1,0 +1,12 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+  
+<suite name="Automation" verbose="1" >
+<listeners>
+<listener class-name="com.bjs.learning.automation.SeleniumAutomation.util.Listener"></listener>
+</listeners> 
+  <test name="com.bjs.learning.automation.SeleniumAutomation.tests" >
+    <classes>
+       <class name="com.bjs.learning.automation.SeleniumAutomation.tests.LoginTests" />
+    </classes>
+  </test>
+</suite>
